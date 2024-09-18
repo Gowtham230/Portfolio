@@ -16,25 +16,24 @@
 </head>
 <body>
      <main>
-        <aside class="side-bar" data-sidebar>
+        <aside class="sidebar active" data-sidebar>
             <div class="sidebar-info">
                 <figure class="avatar-box">
-                    <img src="./images/my-avatar.png" alt="Gowtham D" width="80">
+                    <img src="./images/my-avatar.png" alt="Gowtham D" width="100">
                 </figure>
                 <div class="info-content">
                     <h1 class="name" title="Gowtham D">Gowtham D</h1>
                     <p class="title">Frontend Developer</p>
 
                 </div>
-                    <button class="info-content-more-btn" data-sidebare-btn><span>Show contacts</span>
-                    <ion-icon class="chevron-down"></ion-icon>
+                    <button class="info-more-btn" data-sidebar-btn><span>Show contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
                     </button>
-                    
             </div>
 
                 <div class="sidebar-info-more">
-                    <div class="seperator"></div>
-                    <ul class="contact-list">
+                    <div class="separator"></div>
+                    <ul class="contacts-list">
                         <li class="contact-item">
                             <div class="icon-box">
                                 <ion-icon name="mail-outline"></ion-icon>
@@ -44,7 +43,7 @@
                                 <a href="mailto:gowthamd2305@gmail.com" class="contact-link">gowthamd2305@gmail.com</a>
                             </div>
                         </li>
-
+    
                         <li class="contact-item">
                             <div class="icon-box">
                                 <ion-icon name="phone-portrait-outline"></ion-icon>
@@ -67,7 +66,7 @@
 
                         <li class="contact-info">
                             <div class="icon-box">
-                                <ion-icon name="address-outline"></ion-icon>
+                                <ion-icon name="location-outline"></ion-icon>
                             </div>
                             <div class="contact-info">
                                 <p class="contact-title">Location</p>
@@ -76,7 +75,7 @@
                         </li>
                     </ul>
                     
-                    <div class="seperator"></div>
+                    <div class="separator"></div>
 
                     <ul class="social-list">
                         <li class="social-item">
@@ -104,31 +103,31 @@
         </aside>
     <div class="main-content">
          <nav class="navbar">
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <button class="nav-link" data-nav-link>About</button>
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>About</button>
                 </li>
 
-                <li class="nav-item">
-                    <button class="nav-link" data-nav-link>Resume</button>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Resume</button>
                 </li>
 
-                <li class="nav-item">
-                    <button class="nav-link" data-nav-link>Portfolio</button>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Portfolio</button>
                 </li>
 
-                <li class="nav-item">
-                    <button class="nav-link" data-nav-link>Blog</button>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Blog</button>
                 </li>
 
-                <li class="nav-item">
-                    <button class="nav-link" data-nav-link>Contacts</button>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Contact</button>
                 </li>
             </ul>
          </nav>
 
 <! #about>
-         <article class="about active" data-page="active">
+         <article class="about active" data-page="about">
 
             <header>
              <h2 class="h2 article-title">About Me</h2>
@@ -146,7 +145,7 @@
             </section>
 
             <section class="service">
-                <h3 class="h3 service-title">What I am Doing</h3>
+                <h3 class="h3 service-title">What I am Doing ?</h3>
                 <ul class="service-list">
 
                     <li class="service-item">
@@ -181,7 +180,7 @@
 
                     <li class="service-item">
                         <div class="service-icon-box">
-                            <img src="./images/icon-phot.svg" alt="Web Design" width="40">
+                            <img src="./images/icon-photo.svg" alt="Web Design" width="40">
                         </div>
                         <div class="service-content-box">
                             <h4 class="service-item-title">Photography</h4>
@@ -197,11 +196,11 @@
                 <h3 class="testimonials-title">Testimonials</h3>
                 <ul class="testimonials-list has-scrollbar">
                     <li class="testimonials-item">
-                        <div class="content-card">
+                        <div class="content-card" data-testimonials-item>
                             <figure class="testimonials-avatar-box">
-                                <img srcc="./images/avatar-1.png" alt="Karthic" width="40" data-testimonials-avatar>
+                                <img src="./images/avatar-1.png" alt="Karthic" width="40" data-testimonials-avatar>
                             </figure>
-                            <h4 class="testimonials-item-title">Karthic</h4>
+                            <h4 class="testimonials-item-title" data-testimonials-title>Karthic</h4>
                             <div class="testimonials-item-text" data-testimonials-text>
                                 <p>
                                     Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
@@ -213,11 +212,11 @@
                     </li>
 
                     <li class="testimonials-item">
-                        <div class="content-card">
+                        <div class="content-card" data-testimonials-item>
                             <figure class="testimonials-avatar-box">
-                                <img srcc="./images/avatar-2.png" alt="Vijay" width="40" data-testimonials-avatar>
+                                <img src="./images/avatar-2.png" alt="Vijay" width="40" data-testimonials-avatar>
                             </figure>
-                            <h4 class="testimonials-item-title">Vijay</h4>
+                            <h4 class="testimonials-item-title" data-testimonials-title>Vijay</h4>
                             <div class="testimonials-item-text" data-testimonials-text>
                                 <p>
                                     Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
@@ -229,11 +228,11 @@
                     </li>
 
                     <li class="testimonials-item">
-                        <div class="content-card">
+                        <div class="content-card" data-testimonials-item>
                             <figure class="testimonials-avatar-box">
-                                <img srcc="./images/avatar-3.png" alt="Ajith" width="40" data-testimonials-avatar>
+                                <img src="./images/avatar-3.png" alt="Ajith" width="40" data-testimonials-avatar>
                             </figure>
-                            <h4 class="testimonials-item-title">Ajith</h4>
+                            <h4 class="testimonials-item-title" data-testimonials-title>Ajith</h4>
                             <div class="testimonials-item-text" data-testimonials-text>
                                 <p>
                                     Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
@@ -254,7 +253,7 @@
                         <ion-icon name="close-outline"></ion-icon>
                     </button>
 
-                    <div class="modal-close-wrapper">
+                    <div class="modal-img-wrapper">
                       <figure class="modal-avatar-box">
                         <img src="./images/avatar-1.png" alt="Karthic" width="80" data-modal-img>
                       </figure>
@@ -327,7 +326,7 @@
             </header>
 
             <section class="timeline">
-                <div class="tittle-wrapper">
+                <div class="title-wrapper">
                     <div class="icon-box">
                         <ion-icon name="book-outline"></ion-icon>
                     </div>
@@ -361,7 +360,7 @@
             </section>
 
             <section class="timeline">
-                <div class="tittle-wrapper">
+                <div class="title-wrapper">
                     <div class="icon-box">
                         <ion-icon name="book-outline">
                         </ion-icon>
@@ -456,15 +455,15 @@
                         <button class="active" data-filter-btn>all</button>
                     </li>
 
-                    <li class="project-item">
+                    <li class="filter-item">
                         <button data-filter-btn>Web Design</button>
                     </li>
 
-                    <li class="project-item">
+                    <li class="filter-item">
                         <button data-filter-btn>Web Development</button>
                     </li>
 
-                    <li class="project-item">
+                    <li class="filter-item">
                         <button data-filter-btn>Applications</button>
                     </li>
                 </ul>
@@ -589,7 +588,7 @@
             </header>
 
             <section class="blog-posts">
-                <ul class="blog-post-list">
+                <ul class="blog-posts-list">
                     <li class="blog-post-item">
                         <a href="#">
                             <figure class="blog-banner-box">
@@ -692,7 +691,7 @@
 
          <article class="contact" data-page="contact">
             <header>
-                <h3 class="h3 article-title">Contacts</h3>
+                <h2 class="h2 article-title">Contact</h3>
             </header>
             <section class="mapbox" data-mapbox>
                 <figure>
@@ -709,9 +708,9 @@
                     <div class="input-wrapper">
                         <input type="text" name="fullname" class="form-input" placeholder="Enter full Name" required data-form-input>
 
-                        <input type="email" name="email" class="form-input" placeholder="Enter email address" required-data-form-input>
+                        <input type="email" name="email" class="form-input" placeholder="Enter email address" required data-form-input>
                     </div>
-                    <textarea name="message" class="form-input" placeholder="Your message" required-data-form-input></textarea>
+                    <textarea name="message" class="form-input" placeholder="Your message" required data-form-input></textarea>
 
                     <button class="form-btn" type="submit" disabled data-form-btn>
                         <ion-icon name="paper-plane"></ion-icon>
@@ -724,6 +723,13 @@
     </div>
      </main>
 
+
+
+     <script src="./script.js"></script>
+
+
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
     
 </html>
